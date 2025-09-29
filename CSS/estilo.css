@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+    background: rgb(239, 210, 255) ; 
+}
+
+h1, h2{
+    font-family: "Asimovian", sans-serif;
+    
+}
+
+p{
+     font-family: "Caveat", cursive;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 6px rgba(0, 17, 104, 0.579);
+    margin: 60px;          /* Margen del borde hacia afuera */
+    padding: 20px;         /* Margen del borde hacia adentro */
+
+}
