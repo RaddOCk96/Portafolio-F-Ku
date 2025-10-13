@@ -11,23 +11,26 @@
 <body> <!--  Aquí va todo lo que el usuario ve  -->
 
     <header>
-        <h1> Portafolio profesional </h1> <!--  h1 Es para titulos, va de h1 a h6  -->
+        <h1> Portafolio profesional </h1>
         <h4> Fredy Alberto Ku Chan </h4>
-        <p> Desarrollador fullstack | Estudiante de Ingenieria en TI </p> <!-- p es para parráfos-->
-        
+        <p> Desarrollador fullstack | Estudiante de Ingenieria en TI </p>
+
     </header>
     <!--  CREANDO UN MENÚ DE NAVEGACIÓN  -->
-    <nav>
-        <a href="#"> Inicio </a> <!-- CREA ENLACES -->
-        <!--  Entre las comillas es a donde redirige el link -->
-        <a href="#"> Sobre mí </a>
-        <a href="#"> Mi experiencia </a>
-        <a href="#"> Contactame </a>
+    <nav id="menu-principal">
+        <!-- CREA ENLACES -->
+        <ul>
+            <li> <a href="#bienvenida"> Sobre mí </a> </li>
+            <li><a href="#Gato"> Gato</a></li>
+            <li><a href="#Experiencia"> Mi experiencia </a> </li>
+            <li><a hreg="#habilidades"> Habilidades</a> </li>
+            <li><a href="#contacto"> Contactame </a></li>
+        </ul>
     </nav>
 
     <!--  PARTE PRINCIPAL -->
     <main>
-        <section>
+        <section id="bienvenida">
             <h2> Bienvenidos a mi portafolio Profesional</h2>
             <!-- mark sirve para remarcar el texto, en este caso, amarillo  -->
             <!-- strong sirve para poner en negritas las letras  -->
@@ -54,88 +57,140 @@
                 <p> Actualmente estudio la carrera de Tecnologias de la Informacion e Innovación Digital</p>
             </aside>
             <!--  img es para insertar imagenes, el atributo src es para colocar la url de la imagen  -->
-            <img src="Image/Gato.jpg" alt=" Gato" id = "Gato" />
+            <img src="Image/Gato.jpg" alt=" Gato" id="Gato" />
 
 
         </section>
 
-        <section>
+        <section id="Experiencia">
             <h2> Experiencia profesional</h2>
-            <article>
-                <h3>Proyecto Integrador I </h3>
-                <h4> Nombre del proyecto: ViBio</h4>
-                <p> ViBio consiste en una aplicación de escritorio <strong> offline </strong> donde se puede encontrar información 
-                    de diversos tipos de animales categorizados por el ecosistema al que pertenecen (marino, terrestre y aéreo), teniendo
-                    como informacion el hábitat, la alimentacion, tipo de reproducción, entre otros datos curiosos.
-                    ViBio está dirigido a estudiantes de nivel primaria y secundaria, con el objetivo de fomentar el interés por la biología y la conservación de la 
-                    fauna silvestre y domestica a través de una plataforma interactiva y educativa. 
-                </p>
-                <time> Mayo 2025</time>- <time> Julio 2025</time>- <time datetime="2025-07"> Julio 2025 </time>
-                <ul>
-                    <li> Tecnologias.NET</li>
-                    <li> Plataforma educativa </li>
-                    <li> Basado en la ODS 4 </li>
-                    <li> Un solo usuario</li>
-                </ul>
-            </article>
+            <div id="Lista-proyectos">
+                <article class="proyecto">
+                    <h3>Proyecto Integrador I </h3>
+                    <h4> Nombre del proyecto: ViBio</h4>
+                    <p> ViBio consiste en una aplicación de escritorio <strong> offline </strong> donde se puede
+                        encontrar
+                        información
+                        de diversos tipos de an imales categorizados por el ecosistema al que pertenecen (marino,
+                        terrestre y
+                        aéreo), teniendo
+                        como informacion el hábitat, la alimentacion, tipo de reproducción, entre otros datos curiosos.
+                        ViBio está dirigido a estudiantes de nivel primaria y secundaria, con el objetivo de fomentar el
+                        interés por la biología y la conservación de la
+                        fauna silvestre y domestica a través de una plataforma interactiva y educativa.
+                    </p>
+                    <time> Mayo 2025</time>- <time> Julio 2025</time>- <time datetime="2025-07"> Julio 2025 </time>
+                    <ul>
+                        <li> Tecnologias.NET</li>
+                        <li> Plataforma educativa </li>
+                        <li> Basado en la ODS 4 </li>
+                        <li> Un solo usuario</li>
+                    </ul>
+                </article>
+                <!-- /// -->
+                <article class="proyecto">
+                    <h3>Proyecto Integrador II</h3>
+                    <h4>Proximamente </h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
 
-            <!-- /// -->
-             <article>
-                <h3>Proyecto Integrador II</h3>
-                <h4>Proximamente </h4> 
-                <p> Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                    occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                    
-                </p>
-                <time> fecha </time>- <time> sin </time>- <time datetime="2025-07"> definir </time>
-                <ul>
-                    <li> Tecnologias.NET</li>
-                    <li> Gestion de inventarios </li>
-                    <li> Basado en la ODS </li>
-                    <li> Trabajo en Equipos</li>
-                </ul>
-            </article>
-
-            <!-- /// -->
-
-            <article>
-                <h3>Proyecto Integrador III</h3>
-                <h4> Proximamente</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                    occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                </p>
-               <time> fecha </time>- <time> sin </time>- <time datetime="2025-07"> definir </time>
-                <ul>
-                    <li> Tecnologias.NET</li>
-                    <li> Gestion de inventarios </li>
-                    <li> Basado en la ODS </li>
-                    <li> Trabajo en Equipos</li>
-                </ul>
-            </article>
+                    </p>
+                    <time> fecha </time>- <time> sin </time>- <time datetime="2025-07"> definir </time>
+                    <ul>
+                        <li> Tecnologias.NET</li>
+                        <li> Gestion de inventarios </li>
+                        <li> Basado en la ODS </li>
+                        <li> Trabajo en Equipos</li>
+                    </ul>
+                </article>
+                <!-- /// -->
+                <article class="proyecto">
+                    <h3>Proyecto Integrador III</h3>
+                    <h4> Proximamente</h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                    </p>
+                    <time> fecha </time>- <time> sin </time>- <time datetime="2025-07"> definir </time>
+                    <ul>
+                        <li> Tecnologias.NET</li>
+                        <li> Gestion de inventarios </li>
+                        <li> Basado en la ODS </li>
+                        <li> Trabajo en Equipos</li>
+                    </ul>
+                </article>
 
 
+            </div>
         </section>
-
+        <section id="habilidades">
+            <h2> Habilidades y competencias</h2>
+            <h3> Lenguajes y tecnologias</h3>
+            <ul class="lista-tecnologias">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>C#</li>
+            </ul>
+            <h3> Niveles de Dominio</h3>
+            <div>
+                <label>HTML5</label>
+                <progress max="100" value="80">80%</progress>
+            </div>
+            <div>
+                <label>CSS</label>
+                <progress max="100" value="60">60%</progress>
+            </div>
+            <div>
+                <label>JS</label>
+                <progress max="100" value="15">15%</progress>
+            </div>
+            <div>
+                <label>C#</label>
+                <progress max="100" value="60">60%</progress>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2> Contactame </h2>
+            <form>
+                <div class="campos">
+                    <label> Nombre completo </label>
+                    <input type="text" value="" placeholder="Nombre completo" required />
+                    <!-- Agrega un cuadro de texto que admite texto y tiene un valor por defecto-->
+                </div>
+                <div class="class">
+                    <label> Correo electronico</label>
+                    <input type="email" value="" placeholder="ejemplo@gmail.com" required/>
+                </div>
+                <div class= "campos">
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <div class="campos">
+                    <!--<input type="button" value="Enviar" />-->
+                    <button> Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
     <!-- PIE DE PAGINA  -->
     <footer>

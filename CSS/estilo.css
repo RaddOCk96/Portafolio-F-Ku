@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
+*{
+    margin: auto
+}
+
+
 body{
     background: rgb(6, 0, 88) ; 
 }
@@ -30,14 +35,58 @@ p{
      color : rgb(255, 255, 255);
 }
 
+div{
+    color : rgb(255, 255, 255);
+    font-family: "Changa", sans-serif;
+}
+
 /* Encabezado */
 header {
     text-align: center;
     border-bottom: solid 6px rgba(251, 252, 255, 0.579);     /*Borde inferior del encabezado*/
-    margin: 60px;          /* Margen del borde h acia afuera */
+            /* Margen del borde h acia afuera */
     padding: 20px;         /* Margen del borde hacia adentro */
 
 }
+
+#menu-principal{
+    background-color: rgb(19, 0, 57);
+    padding: 10px 20px;
+    text-align: center; 
+    
+}
+#menu-principal ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;   
+    margin:0; 
+    padding:0;
+}
+
+#menu-principal a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bolder;
+    font-family: "Asimovian", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+#menu-principal a:hover{
+ background-color: rgb(83, 58, 119);
+ color : white;
+ border-radius: 10px;
+}
+
+#bienvenida {
+    background-color: rgb(42, 3, 96);
+    padding: 30px 40px;
+
+}
+
+
 
 /* Foto especíca de perfil */
 #Foto-de-pefil {
@@ -52,10 +101,87 @@ border-radius: 10%;                   /*Borde redondeado*/
     border-radius: 20%;
 }
 
-article{
+#Experiencia {
+    background-color: rgb(0, 5, 10);
+    padding: 30px 40px;
+    border-top:solid rgb(255, 253, 253) 5px;
+}
+
+
+
+#Lista-proyectos{
+    display:flex;         /*Margen inferior del contenedor*/
+    gap: 30px;               /*Espacio entre los elementos*/;
+    flex-wrap: wrap;
+}
+
+.proyecto{
     border: solid rgb(255, 253, 253) 2px;
     width: 30%;
-    float: left;                   /*Para que los articulos se pongan uno al lado del otro*/
+    border-radius: 10px;
+    flex-wrap: wrap; 
+    padding: 10px;
+}
+
+#habilidades{
+    padding: 20px 30px;
+    background-color: rgb(39, 2, 89);
+}
+
+.lista-tecnologias{
+    list-style:none;
+    display:flex;
+    margin-left:0;
+    gap:20px;
+}
+
+.lista-tecnologias li{
+    background-color: rgb(0, 41, 163);
+    color : rgb(255, 253, 253);
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+progress{
+    width: 100%;
+    height: 25px;
+    margin:10px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#contacto{
+    padding:30px 20px;
+    background-color: rgb(4, 0, 72);
+    border-top: solid 5px rgb(255, 255, 255);
+    color : rgb(255, 255, 255);
+    font-family: "Changa", sans-serif;
+}
+
+#contacto label{
+    font-size: 20px;;
+}
+
+#contacto input, textarea{
+ font-size:30px;
+border:solid 1px rgb(255, 255, 255);
+padding: 10px;
+width: 30%;
+}
+
+#contacto button{
+    background-color: rgb(67, 0, 111);
+    color : rgb(255, 255, 255);
+    padding:20px 30px;
+    border-radius:10px;
+    border:none;
+    width:200px;
+    font-family: "Changa", sans-serif;
+}   
+
+.campos{
+    clear:both;
+    padding:10px
 }
 
 
