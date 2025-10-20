@@ -8,7 +8,7 @@
 
 
 body{
-    background: rgb(6, 0, 88) ; 
+    background:  rgb(2, 0, 33);
 }
  
 /* Titulos */ 
@@ -162,11 +162,14 @@ progress{
     font-size: 20px;;
 }
 
-#contacto input, textarea{
- font-size:30px;
+#contacto input, textarea, select{
+ font-size:20px;
 border:solid 1px rgb(255, 255, 255);
 padding: 10px;
 width: 30%;
+background-color: rgb(55, 55, 55);
+color : rgb(255, 255, 255);
+font-family: "Changa", sans-serif;
 }
 
 #contacto button{
@@ -195,8 +198,13 @@ li {
 time{
     color : rgb(255, 255, 255);
     font-family: "Changa", sans-serif;
+    
 }
 
+#contacto .opciones{
+    width: 5% ;
+    
+}
 
 footer{
     color: rgb(255, 255, 255);
