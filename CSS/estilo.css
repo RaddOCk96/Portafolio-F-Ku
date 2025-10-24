@@ -94,15 +94,10 @@ border: solid rgb(255, 253, 253) 5px;             /*Borde y grosor de un borde*/
 border-radius: 10%;                   /*Borde redondeado*/
 }
 
-/* Foto del gato */
-#Gato {
-    border: solid rgb(255, 255, 255) 2px;
-    width: 15%;
-    border-radius: 20%;
-}
+
 
 #Experiencia {
-    background-color: rgb(0, 5, 10);
+    background-color:  rgb(2, 0, 33);
     padding: 30px 40px;
     border-top:solid rgb(255, 253, 253) 5px;
 }

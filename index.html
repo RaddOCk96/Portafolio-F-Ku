@@ -21,9 +21,9 @@
         <!-- CREA ENLACES -->
         <ul>
             <li> <a href="#bienvenida"> Sobre mí </a> </li>
-            <li><a href="#Gato"> Gato</a></li>
+            
             <li><a href="#Experiencia"> Mi experiencia </a> </li>
-            <li><a hreg="#habilidades"> Habilidades</a> </li>
+            <li><a href="#habilidades"> Habilidades</a> </li>
             <li><a href="#contacto"> Contactame </a></li>
         </ul>
     </nav>
@@ -57,7 +57,7 @@
                 <p> Actualmente estudio la carrera de Tecnologias de la Informacion e Innovación Digital</p>
             </aside>
             <!--  img es para insertar imagenes, el atributo src es para colocar la url de la imagen  -->
-            <img src="Image/Gato.jpg" alt=" Gato" id="Gato" />
+           
 
 
         </section>
@@ -185,12 +185,12 @@
 
                 <div class= "campos">
                     <label>Mensaje</label>
-                    <textarea></textarea>
+                    <textarea required></textarea>
                 </div>
                 
                 <div class="campos"> 
                     <label>Motivo</label>
-                    <select>
+                    <select required>
                         <option>Cotización</option>
                         <option>Prácticas</option>
                         <option>Otro</option>
@@ -199,7 +199,7 @@
                 
                 <div class="campos">
                 <label>Fecha Evento</label>
-                <input type="date" placeholder="aaaa-mm-dd" />
+                <input type="date" placeholder="aaaa-mm-dd" required/>
                 </div>
 
                 <div class="campos">
@@ -210,13 +210,13 @@
 
                 <div class="campos">
                     <label>¿Es cliente?</label>
-                    <input type="radio" name="cliente" class="opciones"> Si
-                    <input type="radio" name="cliente" class="opciones"> No
+                    <input type="radio" name="cliente" class="opciones" required> Si
+                    <input type="radio" name="cliente" class="opciones" required> No
                 </div>
                 
                 <div class="campos">
                     <label>Número de colaboradores</label>
-                    <input type="number"/> 
+                    <input type="number" required/> 
                 </div>
 
                 <div class="campos" >
